@@ -24,6 +24,12 @@ public class Country {
 	public void setPopulation(String population) {
 		this.population = population;
 	}
+	@Override
+	public String toString() {
+		return "Country [name=" + name + ", population=" + population + "]";
+	}
+	
+	
 	
 	
 }
